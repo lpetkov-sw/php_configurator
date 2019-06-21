@@ -1,0 +1,13 @@
+{
+	"require" : {
+        "php" : ">=7.3.0",
+		"monolog/monolog": "1.0.*",
+		"ext-apcu": ">= 5.0",
+		"symfony/yaml" : "~2.1"
+    },
+    "autoload" : {
+		"psr-4" : {
+			"SimpleConfigSystem\\" : "src/"
+		}
+	}
+}

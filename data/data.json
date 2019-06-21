@@ -1,0 +1,28 @@
+{
+    "servers": {
+        "Mars": {
+            "ip": "testIP",
+            "type": "QA",
+            "drives": [
+                "C",
+                "D"
+            ]
+        },
+        "Uran": {
+            "ip": "10.20.0.2",
+            "type": "QA",
+            "drives": [
+                "C",
+                "D",
+                "E"
+            ]
+        },
+        "Neptune": {
+            "ip": "10.20.0.5",
+            "type": "Stage",
+            "drives": [
+                "C"
+            ]
+        }
+    }
+}

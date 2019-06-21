@@ -1,0 +1,15 @@
+---
+servers:
+  Mars:
+    ip: 10.20.0.1
+    type: Live
+    drives: [C, E]
+  Uran:
+    ip: 10.20.0.2
+    type: QA
+    drives: [C, D, E]
+  Neptune:
+    ip: 10.20.0.5
+    type: Stage
+    drives: [C]
+...
